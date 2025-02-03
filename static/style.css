@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+
+.btn.btn-danger {
+    background-color: #e44;
+    color: #fff;
+}
+
+.btn.btn-danger:hover {
+    outline: 2px solid #e444;
+    outline-offset: 2px;
+}
+
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.table,.table th,.table td {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.table {
+    border-collapse: collapse;
+    text-wrap: nowrap;
+}
+
+.btn-sm {
+    padding: 10px;
+}
+
+.btn.btn-warning {
+    background-color: #dada37;
+    color: #fff;
+}
+
+.btn.btn-warning:hover {
+    outline: 2px solid rgba(218, 218, 55,0.7);
+    outline-offset: 2px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 14px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline-color: #e44;
+    outline-offset: 2px;
+}
+
+.btn.btn-success {
+    background-color: #195a19;
+    color: #fff;
+}
+
+.btn.btn-success:hover {
+    outline: 2px solid rgba(25, 90, 25,0.7);
+    outline-offset: 2px;
+}
+
+.btn.btn-secondary {
+    background-color: #ddd;
+    color: #000;
+}
+
+.btn.btn-secondary:hover {
+    outline: 2px solid #ccc;
+    outline-offset: 2px;
+}
